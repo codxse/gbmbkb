@@ -1,7 +1,8 @@
 (ns gbmbkb.views
   (:require [re-frame.core :as rf]
             [clojure.string :as string]
-            [goog.string :as gstring]))
+            [goog.string :as gstring]
+            [goog.string.format]))
 
 (defn ensure-number
   [v]
